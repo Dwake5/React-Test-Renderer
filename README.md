@@ -6,10 +6,15 @@ Docs:
 https://reactjs.org/docs/test-renderer.html
 
 The general format of a test is: 
+
 describe("Thing being tested", () => {
+
     test("What you're going to test", () => {
+
         [Put tests here, >1 to test for edge cases is better]
+
     })
+    
 })
 
 This library condenses the react to pure JS.
